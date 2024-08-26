@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+	<layout name="root">
+	
+		<row>
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+			<button type="textnote" icon="text_32x32" />
+		</row>
+
+		<row>
+			<button type="page" label="Hydrant unterflur" icon="fw-grossmehring_icons/hydrant_unter_f.png" targetlayout="unterflur"  />
+			<button type="page" label="Hydrant überflur" icon="fw-grossmehring_icons/hydrant_ueber_f.png" targetlayout="ueberflur"  />
+			<button type="tag" label="Saugstelle Teich" />	
+		</row>
+		
+	</layout>
+	
+	<layout name="unterflur">
+	
+		<row>
+			<button type="tag" label="Hydrant u50" icon="fw-grossmehring_icons/hydrant_unter_f.png" />
+			<button type="tag" label="Hydrant u80" icon="fw-grossmehring_icons/hydrant_unter_f.png" />
+			<button type="tag" label="Hydrant u100" icon="fw-grossmehring_icons/hydrant_unter_f.png" />
+		</row>
+		
+		<row>
+			<button type="tag" label="Hydrant u150" icon="fw-grossmehring_icons/hydrant_unter_f.png" />
+			<button type="tag" label="Hydrant u200" icon="fw-grossmehring_icons/hydrant_unter_f.png" />
+			<button type="tag" label="Hydrant u250" icon="fw-grossmehring_icons/hydrant_unter_f.png" />
+		</row>
+		
+		<row>
+			<button type="tag" label="Hydrant u300" icon="fw-grossmehring_icons/hydrant_unter_f.png" />
+			<button type="tag" label="Hydrant u400" icon="fw-grossmehring_icons/hydrant_unter_f.png" />
+			<button type="tag" label="Hydrant u?" icon="fw-grossmehring_icons/hydrant_unter_f.png" />
+		</row>
+		
+	</layout>
+	
+	<layout name="ueberflur">
+
+		<row>
+			<button type="tag" label="Hydrant ü50" icon="fw-grossmehring_icons/hydrant_ueber_f.png" />
+			<button type="tag" label="Hydrant ü80" icon="fw-grossmehring_icons/hydrant_ueber_f.png" />
+			<button type="tag" label="Hydrant ü100" icon="fw-grossmehring_icons/hydrant_ueber_f.png" />
+		</row>
+		
+		<row>
+			<button type="tag" label="Hydrant ü150" icon="fw-grossmehring_icons/hydrant_ueber_f.png" />
+			<button type="tag" label="Hydrant ü200" icon="fw-grossmehring_icons/hydrant_ueber_f.png" />
+			<button type="tag" label="Hydrant ü250" icon="fw-grossmehring_icons/hydrant_ueber_f.png" />
+		</row>
+		
+		<row>
+			<button type="tag" label="Hydrant ü300" icon="fw-grossmehring_icons/hydrant_ueber_f.png" />
+			<button type="tag" label="Hydrant ü400" icon="fw-grossmehring_icons/hydrant_ueber_f.png" />
+			<button type="tag" label="Hydrant ü?" icon="fw-grossmehring_icons/hydrant_ueber_f.png" />
+		</row>
+		
+	</layout>
+</layouts>

@@ -1,0 +1,5 @@
+<metadata>
+    <option iso="en" name="English"> Map hydrants, mostly for fire departments use in Germany. </option>
+    <option iso="de" name="Deutsch"> Hydranten für die Feuerwehr erfassen. </option>
+    <github username="wschildbach" repo="osmtracker-android-layouts" branch="fw-grossmehring" />
+</metadata>
